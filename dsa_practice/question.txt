@@ -1,0 +1,30 @@
+Ah, got it — you want the array/loop practice list from before, not new if/elif ones. Here it is again:
+
+**Already done (redo quickly to confirm mastery):**
+1. Find the largest number in an array
+2. Find the second largest number in an array
+
+**Same pattern, new angle:**
+3. Find the **smallest** number in an array
+4. Find the **second smallest** number in an array
+5. Find both the **largest and smallest** in a single loop (track two variables at once)
+
+**Counting / accumulating pattern:**
+6. Count how many **even** numbers are in an array
+7. Count how many numbers are **greater than a given value** (e.g., greater than 5)
+8. Find the **sum** of all elements in an array
+9. Find the **average** of all elements in an array
+
+**Index-tracking pattern (useful for later LeetCode problems):**
+10. Find the **index** of the largest number (not the value — the position)
+11. Check if a specific number **exists** in the array (return True/False)
+12. Find the **first** number in the array that is greater than 10
+
+**Slightly harder — combine two conditions:**
+13. Count how many numbers are **both even AND greater than 5**
+14. Find the largest **even** number in the array (skip odd numbers while comparing)
+
+**Two-array comparison:**
+15. Given two arrays of the same length, find how many positions have the **same value** at the same index
+
+Go through these in order, same rhythm as before — logic in words first if it feels new, then code, then trace through at least one tricky case by hand before trusting it. Send me your solutions as you go.
