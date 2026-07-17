@@ -4,7 +4,7 @@ smallest=arr[0]
 second=arr[0]
 for i in range(len(arr)):
     if arr[i]<smallest:
-        secound=smallest
+        second=smallest
         smallest=arr[i]
     elif arr[i]<second and arr[i]>smallest:
         second=arr[i]
