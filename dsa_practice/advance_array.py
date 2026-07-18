@@ -22,6 +22,6 @@ count=0
 for i in range(len(a1)):
         if a1[i]== a2[i]:
             index=i
-            coun=count+1
+            count=count+1
             print(f"the position tha have the same index {index}")
 print(f"no of same elements at same index {count}")
