@@ -9,3 +9,46 @@ print(credit_card[-1])#print the last indexed element
 print(credit_card[::3])#print element at 3 step
 print(credit_card[::-1])#print reverse string
 print(credit_card[2::2])#print from 2nd index within 2 steps
+
+#format specifire={value:flag}format a value based on what flag are inserted
+
+# format specifiers = {:flags} format a value based on what flags are inserted
+
+value = 3.14159
+positive_num = 42
+negative_num = -42
+
+# .(number)f = round to that many decimal places (fixed point)
+print(f"{value:.2f}")        # 3.14
+
+# :(number) = allocate that many spaces
+print(f"{positive_num:10}")  # "        42" (right-aligned in 10 spaces by default for numbers)
+
+# :03 = allocate and zero pad that many spaces
+print(f"{5:03}")             # "005"
+
+# :< = left justify
+print(f"{positive_num:<10}|")  # "42        |"
+
+# :> = right justify
+print(f"{positive_num:>10}|")  # "        42|"
+
+# :^ = center align
+print(f"{positive_num:^10}|")  # "    42    |"
+
+# :+ = use a plus sign to indicate positive value
+print(f"{positive_num:+}")   # +42
+print(f"{negative_num:+}")   # -42
+
+# := = place sign to leftmost position (useful with zero-padding)
+print(f"{positive_num:=+10}")  # "+       42"
+
+# : (space) = insert a space before positive numbers
+print(f"{positive_num: }")   # " 42"
+print(f"{negative_num: }")   # "-42"
+
+# :, = comma separator
+print(f"{1000000:,}")        # 1,000,000
+
+# Combining flags — e.g. comma separator + fixed decimals
+print(f"{1234567.891:,.2f}")  # 1,234,567.89
