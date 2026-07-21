@@ -1,0 +1,11 @@
+#indexing :accessing element of a sequence using[](indexing opertor)
+#[start:end:step]
+credit_card="1234-5678-9012-3456"
+print(credit_card[0])#prints the element on index 0
+print(credit_card[:4])#prints the element before the end excluding it in this 0,1,2,3 will print
+print(credit_card[5:9])#print from 5 to 8 exculding 9 (end)
+print(credit_card[5:])#print till end from 5th element
+print(credit_card[-1])#print the last indexed element 
+print(credit_card[::3])#print element at 3 step
+print(credit_card[::-1])#print reverse string
+print(credit_card[2::2])#print from 2nd index within 2 steps
