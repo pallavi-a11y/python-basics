@@ -1,6 +1,11 @@
-#23. Rotate an array by 1 position to the right (e.g. [1,2,3,4,5] → [5,1,2,3,4])
-a=[1,2,3,4,5]
+#22. Find the number that appears only once in an array where every other number appears twice (try without extra data structures first, then look up XOR trick after)
+a=[1,2,3,4,4,3,2,1,9]
+count={}
 for i in range(len(a)):
-    for j in range(len(a),0 ,-1):
-        a[j] = a[i]
-print(a)
+    if a[i] in count:
+        count[a[i]]=count[a[i]]+1
+    else:
+        count[a[i]]=1
+for key in count:
+    if count[key]==1: 
+        print(key)
